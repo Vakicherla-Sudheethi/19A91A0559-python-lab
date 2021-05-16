@@ -1,0 +1,11 @@
+# Implement a python script add.py that takes 2 numbers as command line arguments and perform arithmetic operations on them.
+import sys 
+a=int(input(sys.argv[0]))
+b=int(input(sys.argv[0]))
+c=a+b 
+print('sum is: ',c)
+
+"""output:
+          2
+          3
+          sum is:  5"""
